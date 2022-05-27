@@ -17,8 +17,6 @@ public class UserResource {
 		return ResponseEntity.ok().body(u);
 	}
 
-	
-	
 	/*
 	@GetMapping
 	public ResponseEntity<List<User>> findAll() {
